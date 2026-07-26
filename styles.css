@@ -1,22 +1,22 @@
 :root {
-  --bg: #fbfaf6;
-  --bg-panel: #ffffff;
-  --bg-alt: #f4efe3;
+  --bg: #f2f0ec;
+  --bg-panel: #fafaf8;
+  --bg-alt: #e7e4de;
   --ink: #2b2e3d;
   --ink-soft: #656a80;
   --ink-faint: #8f93a8;
   --accent: #8c887c;
   --accent-deep: #5c584c;
-  --accent-soft: #e9e6dd;
+  --accent-soft: #e3e0d8;
   --accent-ink: #ffffff;
-  --line: #e3ddd0;
+  --line: #ddd8d0;
   --shadow: 0 1px 2px rgba(43,46,61,0.06), 0 10px 28px -12px rgba(43,46,61,0.18);
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1a1c26;
-    --bg-panel: #232631;
-    --bg-alt: #20222c;
+    --bg: #201f1c;
+    --bg-panel: #2a2825;
+    --bg-alt: #262420;
     --ink: #eceef5;
     --ink-soft: #b8bbcf;
     --ink-faint: #82869c;
@@ -24,18 +24,18 @@
     --accent-deep: #d8d2c0;
     --accent-soft: #3a372e;
     --accent-ink: #23201a;
-    --line: #383c4d;
+    --line: #3c3830;
     --shadow: 0 1px 2px rgba(0,0,0,0.35), 0 10px 32px -12px rgba(0,0,0,0.55);
   }
 }
 :root[data-theme="dark"] {
-  --bg: #1a1c26; --bg-panel: #232631; --bg-alt: #20222c; --ink: #eceef5; --ink-soft: #b8bbcf;
-  --ink-faint: #82869c; --accent: #b0aa9a; --accent-deep: #d8d2c0; --accent-soft: #3a372e; --accent-ink: #23201a; --line: #383c4d;
+  --bg: #201f1c; --bg-panel: #2a2825; --bg-alt: #262420; --ink: #eceef5; --ink-soft: #b8bbcf;
+  --ink-faint: #82869c; --accent: #b0aa9a; --accent-deep: #d8d2c0; --accent-soft: #3a372e; --accent-ink: #23201a; --line: #3c3830;
   --shadow: 0 1px 2px rgba(0,0,0,0.35), 0 10px 32px -12px rgba(0,0,0,0.55);
 }
 :root[data-theme="light"] {
-  --bg: #fbfaf6; --bg-panel: #ffffff; --bg-alt: #f4efe3; --ink: #2b2e3d; --ink-soft: #656a80;
-  --ink-faint: #8f93a8; --accent: #8c887c; --accent-deep: #5c584c; --accent-soft: #e9e6dd; --accent-ink: #ffffff; --line: #e3ddd0;
+  --bg: #f2f0ec; --bg-panel: #fafaf8; --bg-alt: #e7e4de; --ink: #2b2e3d; --ink-soft: #656a80;
+  --ink-faint: #8f93a8; --accent: #8c887c; --accent-deep: #5c584c; --accent-soft: #e3e0d8; --accent-ink: #ffffff; --line: #ddd8d0;
   --shadow: 0 1px 2px rgba(43,46,61,0.06), 0 10px 28px -12px rgba(43,46,61,0.18);
 }
 
