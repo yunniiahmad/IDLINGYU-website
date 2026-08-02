@@ -160,6 +160,30 @@ section { padding: 72px 0; }
 .program-card .learn { font-size: 13px; font-weight: 600; color: var(--accent-deep); text-decoration: none; margin-top: auto; }
 .program-card .learn:hover { text-decoration: underline; }
 
+/* ---------- TEAM ---------- */
+.team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.team-card {
+  background: var(--bg-panel); border-radius: 12px;
+  padding: 26px 24px; display: flex; gap: 18px; box-shadow: var(--shadow);
+}
+.team-avatar {
+  flex: none; width: 56px; height: 56px; border-radius: 50%;
+  background: var(--accent-soft); color: var(--accent-deep);
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Fraunces', serif; font-weight: 600; font-size: 18px;
+}
+.team-info h3 { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+.team-role { color: var(--accent-deep); font-size: 13px; font-weight: 600; margin: 0 0 8px; }
+.team-bio { color: var(--ink-soft); font-size: 14px; margin: 0 0 14px; }
+.team-scores { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+.score-chip {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--accent-deep); background: var(--accent-soft); display: inline-block;
+  padding: 4px 10px; border-radius: 100px;
+}
+.team-link { font-size: 13px; font-weight: 600; color: var(--accent-deep); text-decoration: none; }
+.team-link:hover { text-decoration: underline; }
+
 /* ---------- FORMAT TIERS ---------- */
 .format-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 @media (max-width: 760px) { .format-row { grid-template-columns: 1fr; } }
