@@ -171,6 +171,7 @@ section { padding: 72px 0; }
   background: var(--accent-soft); color: var(--accent-deep);
   display: flex; align-items: center; justify-content: center;
   font-family: 'Fraunces', serif; font-weight: 600; font-size: 18px;
+  object-fit: cover;
 }
 .team-info h3 { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
 .team-role { color: var(--accent-deep); font-size: 13px; font-weight: 600; margin: 0 0 8px; }
