@@ -173,6 +173,9 @@ section { padding: 72px 0; }
   font-family: 'Fraunces', serif; font-weight: 600; font-size: 18px;
   object-fit: cover;
 }
+/* Zoom adjustment for Yuni's avatar crop, relative to the default
+   object-fit: cover framing (scale(1) = default, no adjustment). */
+.avatar-zoom-out { transform: scale(1); }
 .team-info h3 { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
 .team-role { color: var(--accent-deep); font-size: 13px; font-weight: 600; margin: 0 0 8px; }
 .team-bio { color: var(--ink-soft); font-size: 14px; margin: 0 0 14px; }
